@@ -1,0 +1,36 @@
+
+
+
+    .Inicio{
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        width: 80%;
+        
+        margin: 90px auto;
+    }
+    hr{
+        margin-top: 7px;
+        margin-bottom: 10px;
+        background-color:#10bcf9 ;
+        border: 1px solid #10bcf9;
+    }
+     
+    .titulo h3{
+        color: #555e69;
+    }
+    .titulo h1{
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    .about{
+        margin-top: 60px;
+    }
+    .about p{
+        padding: 0px 15px 0px 20px;
+        text-align: justify;
+        margin-top: 30px;
+        color: #1f2225;
+    }
+    strong{
+        border-bottom: 1px solid #10bcf9;
+    }

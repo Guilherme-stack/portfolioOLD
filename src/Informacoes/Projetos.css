@@ -1,0 +1,44 @@
+
+
+
+    .Projetos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr auto auto auto auto;
+        margin: 100px;
+    }
+    
+    .sacoDeRedacao img, .MediaPonderada img, .CalcularImc img,.gymAcademy img {
+        width: 100%;
+        box-shadow:5px 5px 15px 0px rgba(44,44,44,0.15);
+        border-radius: 20px;
+        margin: 0px;
+    }
+    .sacoDeRedacao p, .MediaPonderada p, .CalcularImc p, .gymAcademy p{
+        padding: 10px 30px 50px 30px;
+    }
+    .sacoDeRedacao h3, .MediaPonderada h3, .CalcularImc h3, .gymAcademy h3{
+        margin: 0px 0px 25px 0px;
+        text-align: center;
+    }
+    .sacoDeRedacao a, .MediaPonderada a, .CalcularImc a, .gymAcademy a{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#10bcf9 ;
+        display: inline;
+        padding: 0px;
+       
+    }
+    .sacoDeRedacao a:hover, .MediaPonderada a:hover, .CalcularImc a:hover, .gymAcademy a:hover{
+       
+        padding: 0px;
+        border-bottom:1px solid #10bcf9 ;
+    }
+    .TituloProjetos h3{
+        color: #555e69;
+    }
+    .TituloProjetos{
+        margin-bottom: 30px;
+    }
+    p{
+        margin: 0px;
+    }

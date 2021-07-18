@@ -1,0 +1,98 @@
+
+
+
+    
+.SideBio{
+    background-color:#33383f;
+    display: grid;
+    grid-template-rows: 0.6fr 0.3fr 1.5fr;
+    height: 100vh;
+    position: fixed;
+    grid-gap: 10px;
+    padding: 0px 10px 0px 10px;
+ 
+     
+}
+.SideBio li{
+    text-align: center;
+    color: white;
+}
+.Navegacao li{
+    color: white;
+    margin: 7px 10px 7px 10px;
+    list-style: none;
+    border-bottom: 0.1px solid #959ea9;
+}
+.first{
+    border-top:0.1px solid #959ea9 ;
+}
+.Navegacao a:hover{
+    color:#10bcf9;
+}
+a{
+    text-decoration: none;
+    color: #959ea9;
+    outline-width: 100%;
+    display: block;
+    padding: 7px;
+    font-size: 14px;
+}
+.Foto img{
+    width: 22vh;
+    height: 22vh;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 3px solid #10bcf9;
+    box-shadow: 5px 5px 5px 5px #0075a393;
+    -webkit-box-shadow: 1px 0px 0px 10px #0075a368;
+    -moz-box-shadow: 10px 10px 10px 10px #0075a3a1;
+}
+.Info{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.Info h2{
+    font-size: 1.4rem;
+}
+.Info p{
+    font-size: 0.9rem;
+}
+.Info p,h2{
+    color: #959ea9;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.Info h2{
+    color: white;
+}
+.icones img{
+    width: 20px;
+    margin-top: 10px;
+    border: 0.5px solid  #959ea9 ;
+    padding: 7px;
+}
+.icones img:hover{
+    border: 0.5px solid  #10bcf9 ;
+    background-color: #10bbf95c;
+    transform: rotate(360deg);
+    border-radius: 12px;
+    transition: 0.7s;
+}
+.icones a{
+    display: inline;
+    border-radius: 50%;
+}
+.redesSociais{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+ 

@@ -1,0 +1,75 @@
+
+    .Contato{
+        margin: 100px;
+    }
+    .Formulario{
+        display: grid;
+        grid-gap: 15px;
+    }
+    .tituloContato{
+        margin-bottom: 20px;
+    }
+    .tituloContato p{
+        color: #555e69;
+        font-size: 1.2rem;
+    }
+    label{
+        color: black;
+    }
+    .Formulario input{
+        border: 1px solid #e9ebed;
+        background-color: #f7f8f9;
+        width: 97%;
+        height: 35px;
+        font-size: 1rem;
+        outline: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 10px;
+        margin-top: 7px;
+        color: #555e69;
+    }
+    select{
+        width: 100%;
+        border: 1px solid #e9ebed;
+        background-color: #f7f8f9;
+        margin-top: 7px;
+        height: 35px;
+        font-size: 1rem;
+        outline: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 10px;
+        color: #74797f;
+    }
+    
+    textarea{
+        margin-top: 7px;
+        padding: 12px 13px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: 1px solid #e9ebed;
+        background-color: #f7f8f9;
+        width: 97%;
+        color: #555e69;
+        outline: none;
+        height: 120px;
+        font-family: 'Poppins',sans-serif; 
+    }
+    button{
+        padding:15px;
+        outline: none;
+        border-radius: 25px;
+        width: 20vw;
+        background: #10bcf9;
+        border: none;
+        color: whitesmoke;
+    }
+    button:hover{
+        background-color: white;
+        border: 1px solid #10bcf9;
+        color: black;
+        box-shadow: 5px 5px 5px 5px #0075a393;
+    -webkit-box-shadow: 1px 0px 5px 10px #0075a368;
+    -moz-box-shadow: 10px 10px 10px 10px #0075a3a1;
+        transition: 0.4s;
+        cursor: pointer;
+    }

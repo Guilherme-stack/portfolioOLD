@@ -1,0 +1,21 @@
+
+
+    .Sobre{
+   
+        margin: 80px auto;
+        width: 80%;
+        display: grid;
+    }
+    .tituloSobre h3{
+        color: #555e69;
+        margin-bottom: 20px;
+        
+    }
+    .resumo p{
+        margin-bottom: 20px;
+    }
+    .direitos{
+        font-size: 0.6rem;
+        font-weight: 10px;
+        margin-top: 60px;
+    }
